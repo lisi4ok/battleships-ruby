@@ -19,6 +19,7 @@ end
 group :development do
   gem "sorbet-static", "~> 0.5.10649"
   gem "yard", "~> 0.9.28"
+  gem "pry", "~> 0.14.2"
 end
 
 group :test do
