@@ -2,9 +2,7 @@
 # frozen_string_literal: true
 
 module BattleShips
-  module Entities
-    class Player
-      extend T::Sig
-    end
+  class Game
+    extend T::Sig
   end
 end

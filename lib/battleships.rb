@@ -3,14 +3,8 @@
 
 require 'sorbet-runtime'
 
-Dir.glob('**/*.rb', base: __dir__).each do |filepath|
-  require_relative filepath
-end
+Dir.glob("**/*.rb", base: __dir__).each { |path| require_relative path }
 
 module BattleShips
-  extend T::Sig
 
-  def run
-    field = BattleShips::Entities::Field.new
-  end
 end
